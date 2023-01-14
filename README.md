@@ -13,6 +13,7 @@ Utilisez ctrl+c pour quitter le jeu.
 
 ## Version discord
 Avant le premier lancement du bot, la fonction create_database du fichier sqlite_utility.py doit être exécutée une fois pour créer la base de données.  
+
 L'utilisation du code necessite au préalable la création d'un bot discord et l'obtention d'un token (le bot devra disposer de droits suffisant dans le serveur).  
 
 Il vous faudra ensuite créer un fichier .env contenant la variable API_TOKEN.  
