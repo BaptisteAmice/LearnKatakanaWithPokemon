@@ -1,17 +1,17 @@
-#Le projet
+# Le projet
 
 Ce projet à pour but de pratiquer la lecture des katakana par le biais des noms de pokemon.
 
-#Installation
+# Installation
 Deux versions sont disponibles, une version en terminal et un bot discord.
 
 Pour lancer les deux versions, il faut installer python3 et l'ensemble des dépendances du projet.
 
-##Version terminal
+## Version terminal
 Contentez vous de lancer le fichier game_console.py
 Utilisez ctrl+c pour quitter le jeu.
 
-##Version discord
+## Version discord
 Avant le premier lancement du bot, la fonction create_database du fichier sqlite_utility.py doit être exécutée une fois pour créer la base de données.
 L'utilisation du code necessite au préalable la création d'un bot discord et l'obtention d'un token (le bot devra disposer de droits suffisant dans le serveur).
 Il vous faudra ensuite créer un fichier .env contenant la variable API_TOKEN.
